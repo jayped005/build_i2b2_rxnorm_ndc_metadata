@@ -32,8 +32,8 @@ Software environment:
 
 Requirements to execute the procedure:
 
-  1. An directory/folder name to write log files.
-  2. An directory/folder to create a cache file of information gathered
+  1. A directory/folder name to write log files.
+  2. A directory/folder to create a cache file of information gathered
      from the NLM's REST API.
   3. A directory/folder to create the i2b2 metadata file.
   4. The filename to call the metadata file.
