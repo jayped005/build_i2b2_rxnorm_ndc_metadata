@@ -53,12 +53,24 @@ Execution syntax:
   The following commands creates the metadata file i2b2_rxnorm_ndc.txt
   in the folder C:/sno/data/i2b2_metadata/20190114/, etc.
   
+  From a DOS shell:
+  
+    python build_rxnorm_metadata.py ^
+    --add_provenance ^
+    --prefix i2b2_RXNORM_NDC ^
+    --cache C:\sno\data\rxcui_cache\rxcui_20190114.cache ^
+    --log_dir C:\sno\log\rxnorm_i2b2_metadata\20190114\ ^
+    --output_dir C:\sno\data\i2b2_metadata\20190114\ ^
+    --output_filename i2b2_rxnorm_ndc.txt
+    
+  From a "git bash" shell:
+  
   python build_rxnorm_metadata.py \
     --add_provenance \
     --prefix i2b2_RXNORM_NDC \
-    --cache C:/sno/data/rxcui_cache/rxcui_20190114.cache \
-    --log_dir C:/sno/log/rxnorm_i2b2_metadata/20190114/ \
-    --output_dir C:/sno/data/i2b2_metadata/20190114/ \
+    --cache /c/sno/data/rxcui_cache/rxcui_20190114.cache \
+    --log_dir /c/sno/log/rxnorm_i2b2_metadata/20190114/ \
+    --output_dir /c/sno/data/i2b2_metadata/20190114/ \
     --output_filename i2b2_rxnorm_ndc.txt
 
 Time requirements:
