@@ -38,6 +38,8 @@ Software environment:
   
   Has been tested on Windows using Anaconda Python version 3.6, but should
   work with Python 3.5 or 3.7.
+  
+  Has been tested on Linux (Ubuntu 16.04), using Python version 3.7.1.
 
 Requirements to execute the procedure:
 
@@ -53,7 +55,17 @@ Execution syntax:
   The following commands creates the metadata file i2b2_rxnorm_ndc.txt
   in the folder C:/sno/data/i2b2_metadata/20190114/, etc.
   
-  From a DOS shell:
+  From a Linux bash shell:
+  
+  python build_rxnorm_metadata.py \
+    --add_provenance \
+    --prefix i2b2_RXNORM_NDC \
+    --cache /sno/data/rxcui_cache/rxcui_20190114.cache \
+    --log_dir /sno/log/i2b2_metadata/rxnorm/20190114/ \
+    --output_dir /sno/data/i2b2_metadata/rxnorm/20190114/ \
+    --output_filename i2b2_rxnorm_ndc.txt
+
+  From a DOS shell on Windows:
   
     python build_rxnorm_metadata.py ^
     --add_provenance ^
@@ -63,7 +75,7 @@ Execution syntax:
     --output_dir C:\sno\data\i2b2_metadata\20190114\ ^
     --output_filename i2b2_rxnorm_ndc.txt
     
-  From a "git bash" shell:
+  From a "git bash" shell on Windows:
   
   python build_rxnorm_metadata.py \
     --add_provenance \
