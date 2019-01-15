@@ -43,12 +43,14 @@ Software environment:
 
 Requirements to execute the procedure:
 
-  1. A directory/folder name to write log files.
-  2. A directory/folder to create a cache file of information gathered
+  1. A python 3 interpreter, version 3.5 or higher.
+  2. The source code from this repository.
+  3. A directory/folder name to write log files.
+  4. A directory/folder to create a cache file of information gathered
      from the NLM's REST API.
-  3. A directory/folder to create the i2b2 metadata file.
-  4. The filename to call the metadata file.
-  5. The prefix to apply to all metadata paths (e.g. i2b2_RXNORM_NDC)
+  5. A directory/folder to create the i2b2 metadata file.
+  6. The filename to call the metadata file.
+  7. The prefix to apply to all metadata paths (e.g. i2b2_RXNORM_NDC)
   
 Execution syntax:
 
