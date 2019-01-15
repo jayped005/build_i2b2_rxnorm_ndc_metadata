@@ -58,17 +58,18 @@ Execution syntax:
   in the folder C:/sno/data/i2b2_metadata/20190114/, etc.
   
   From a Linux bash shell:
-  
-  python build_rxnorm_metadata.py \\
+  ```
+  python build_rxnorm_metadata.py \
     --add_provenance \
     --prefix i2b2_RXNORM_NDC \
     --cache /sno/data/rxcui_cache/rxcui_20190114.cache \
     --log_dir /sno/log/i2b2_metadata/rxnorm/20190114/ \
     --output_dir /sno/data/i2b2_metadata/rxnorm/20190114/ \
     --output_filename i2b2_rxnorm_ndc.txt
+  ```
 
   From a DOS shell on Windows:
-  
+   ```  
     python build_rxnorm_metadata.py ^
     --add_provenance ^
     --prefix i2b2_RXNORM_NDC ^
@@ -76,16 +77,19 @@ Execution syntax:
     --log_dir C:\sno\log\rxnorm_i2b2_metadata\20190114\ ^
     --output_dir C:\sno\data\i2b2_metadata\20190114\ ^
     --output_filename i2b2_rxnorm_ndc.txt
+   ```
     
   From a "git bash" shell on Windows:
-  
-  python build_rxnorm_metadata.py \
-    --add_provenance \
-    --prefix i2b2_RXNORM_NDC \
-    --cache /c/sno/data/rxcui_cache/rxcui_20190114.cache \
-    --log_dir /c/sno/log/rxnorm_i2b2_metadata/20190114/ \
-    --output_dir /c/sno/data/i2b2_metadata/20190114/ \
-    --output_filename i2b2_rxnorm_ndc.txt
+
+   ```  
+   python build_rxnorm_metadata.py \
+   --add_provenance \
+   --prefix i2b2_RXNORM_NDC \
+   --cache /c/sno/data/rxcui_cache/rxcui_20190114.cache \
+   --log_dir /c/sno/log/rxnorm_i2b2_metadata/20190114/ \
+   --output_dir /c/sno/data/i2b2_metadata/20190114/ \
+   --output_filename i2b2_rxnorm_ndc.txt
+   ```
 
 Time requirements:
 
