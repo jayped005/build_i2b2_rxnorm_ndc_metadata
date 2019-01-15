@@ -59,7 +59,7 @@ Execution syntax:
   
   From a Linux bash shell:
   
-  python build_rxnorm_metadata.py \
+  python build_rxnorm_metadata.py \\
     --add_provenance \
     --prefix i2b2_RXNORM_NDC \
     --cache /sno/data/rxcui_cache/rxcui_20190114.cache \
