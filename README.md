@@ -18,10 +18,19 @@ Purpose:
 
 Algorithm:
   Uses information extracted from the REST API interfaces provided by the
-  NLM to determine
+  NLM to determine historically complete RxNorm coding, and to create a
+  drug classification hierarchy and lexical listing of drugs based on
+  drug ingredient(s).
   
   Input: REST API from the NLM
+  
   Output: i2b2 metadata file with historically complete RxNORM coding.
+
+  Additionally:
+          Log files showing execution progress and a cache file containing
+          NLM REST API responses are also produced.  The log files may be
+          examined in error cases.  They can be removed after a successful run.
+          The cache file can be re-used on a later execution, or can be removed.
 
 Software environment:
 
