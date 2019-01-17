@@ -9,7 +9,8 @@ Purpose:
   Builds an i2b2 format metadata file with historically complete definitions
   of RxNORM orderable drugs from the NLM, and the best available mappings
   of those orderable drugs to their associated NDC packages.  The NDC
-  mapping is also provided by the NDC with information received from the FDA.
+  mapping is also provided by the NLM with information they receive (for example,
+  from the FDA and pharmaceutical companies).
 
   Also includes a drug classification using VACLASS identifier which is supported
   by the NLM, and tracks the no-longer-supported NDFRT drug classification from the VA.
